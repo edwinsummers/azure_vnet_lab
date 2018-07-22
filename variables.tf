@@ -20,3 +20,11 @@ variable "project" {
 variable "vm_size" {
   default = "Basic_B1S"
 }
+
+variable "login_user" {
+  description = "Base username to create for Linux hosts"
+}
+
+variable "ssh_public_key_path" {
+  description = "Path to public key of pair used for ssh to hosts"
+}
